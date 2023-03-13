@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="cv.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <title>Tiko Tsakadze</title>
+    </head>
+    <body class="body">
+        <main class="cv-container">
+            <img src="me.jpg" alt="There is my photo" class="cv-photo">
+            <header class="my-info">
+                <p>Tinatin Tsakadze</p>
+                <p>Backend Developer</p>
+            </header>
+            <div class="buttons">
+                <button type="button" id="Mail">
+                        <img src="Images/email.png" alt="There is an icon of mail"></img>Mail
+                    </button>
+                <a href="https://www.linkedin.com/in/tinatin-tsakadze-ba1215226/">
+                    <button type="button" id="LinkedIn">
+                        <img src="Images/linkedin.png" alt="There is an icon of LinkedIn">
+                        <p>LinkedIn</p>
+                    </button>
+                </a>
+            </div>
+            <div class="about-interests">
+                <p>About</p>
+                <p>I am an IT student in BTU, 19 years old. I've been interested in programming for about a year and a half.
+                    I really love backend and my favourite programming language is Python.
+                </p>
+                <p>Interests</p>
+                <p>Python(flask, django), SQL DB,
+                    JS Node Express.
+                </p>
+
+
+            </div>
+            <footer>
+                <div class="footer">
+                    <div class="footer-content">
+                        <a href="https://www.facebook.com/tikitiko.tsakadze/" target="blank">
+                            <img src="Images/Facebook Icon.png">
+
+                        </a>
+                        <a href="https://www.instagram.com/tiko_tsakadze/" target="blank">
+                            <img src="Images/Instagram Icon.png">
+
+                        </a>
+                        <a href="https://github.com/TikoTs" target="blank">
+                            <img src="Images/GitHub Icon.png">
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </main>
+
+
+        <form class="popup" style="display: none;">
+            <label>Name</label>
+            <br>
+            <input type="text" id="Name">
+            <br>
+            <label>Subject</label>
+            <br>
+            <input type="text">
+            <br>
+            <textarea>
+            </textarea>
+            <br>
+            <button id="sendBtn" type="submit">Send</button> 
+            <img src="Images/340.png" alt="back" id="backBtn"></img>  
+        </form>
+        
+
+        <script src="cv.js"></script>
+    </body>
+</html>
