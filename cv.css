@@ -233,7 +233,15 @@ footer {
     align-items: center;
     width: 60%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+.footer-content :nth-child(1){
+    margin-right: 10px;
+}
+
+.footer-content :nth-child(2){
+    margin-left: 10px;
+
 }
 
 
